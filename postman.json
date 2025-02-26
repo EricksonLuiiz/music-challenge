@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "c0975884-f19b-4208-831c-118c624c7c6a",
+		"name": "music-challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40435921"
+	},
+	"item": [
+		{
+			"name": "music-users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/music-users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"music-users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "music/{music}/user/{user}",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/music/3/user/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"music",
+						"3",
+						"user",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
