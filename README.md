@@ -24,40 +24,50 @@ Este é um projeto moderno desenvolvido com Laravel 11 e React, utilizando Types
 ## 🛠️ Configuração do Ambiente
 
 1. Clone o repositório:
-   git clone [seu-repositorio]
+
+    git clone [seu-repositorio]
 
 2. Entre na pasta do projeto:
-   cd music
+
+    cd music
 
 3. Crie o arquivo .env:
-   cp .env.example .env
+
+    cp .env.example .env
 
 4. Inicie os containers Docker:
-   ./vendor/bin/sail up -d
+
+    ./vendor/bin/sail up -d
 
 5. Instale as dependências:
-   ./vendor/bin/sail run composer install
+
+    ./vendor/bin/sail run composer install
 
 6. Instale as dependências do Node:
-   ./vendor/bin/sail run npm install
+
+    ./vendor/bin/sail run npm install
 
 7. Gere a chave da aplicação:
-   ./vendor/bin/sail run php artisan key:generate
+
+    ./vendor/bin/sail run php artisan key:generate
 
 8. Execute as migrações:
-   ./vendor/bin/sail run php artisan migrate
+
+    ./vendor/bin/sail run php artisan migrate
 
 9. Importar músicas, copie os arquivos para o diretório "./import-songs" na raiz do projeto e execute o comando:
-   ./vendor/bin/sail run php artisan app:import-music
+
+    ./vendor/bin/sail run php artisan app:import-music
 
 10. Compile os assets:
+
     ./vendor/bin/sail run npm run dev
 
 ## 🌐 Acessando a Aplicação
 
 Após a configuração, acesse a aplicação em:
 
--   (Aplicação)[http://localhost]
+-   [Aplicação](http://localhost)
 
 ## Postman com rotas do projeto
 
